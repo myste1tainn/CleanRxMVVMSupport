@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
   MVVM specific interface classifier to be used by implementers
                        DESC
 
-  s.homepage         = 'https://api-dev.allianz.de/ghe/MVVMSupport'
+  s.homepage         = 'https://api-dev.allianz.de/ghe/Allianz4You/MVVMSupport'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'myste1tainn' => 'a.keereena@gmail.com' }
-  s.source           = { :git => 'https://api-dev.allianz.de/ghe/MVVMSupport.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://api-dev.allianz.de/ghe/Allianz4You/MVVMSupport.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '4.2'
