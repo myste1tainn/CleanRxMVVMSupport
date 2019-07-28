@@ -8,5 +8,5 @@ public protocol ViewModelType {
   associatedtype Input
   associatedtype Output
   
-  func tranform(input: Input) -> Output
+  func transform(input: Input) -> Output
 }
