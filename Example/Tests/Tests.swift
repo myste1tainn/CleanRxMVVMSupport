@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import MVVMSupport
+import CleanRxMVVMSupport
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

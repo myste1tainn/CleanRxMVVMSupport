@@ -1,12 +1,12 @@
 use_frameworks!
 
 target 'MVVMSupport_Example' do
-  pod 'MVVMSupport', :path => '../'
+  pod 'CleanRxMVVMSupport', :path => '../'
 
   target 'MVVMSupport_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2'
-    pod 'Nimble', '~> 7.0'
+    pod 'Quick', '~> 2.0'
+    pod 'Nimble', '~> 8.0'
   end
 end
